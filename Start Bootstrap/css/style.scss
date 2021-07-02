@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 5rem;
+    width: 100%;
+}
+
+// Header
+ #Header{
+    width: 100%;
+    padding: 30px 0;
+    position: fixed;
+    z-index: 2;
+     .header-all{
+         .left{
+             width: 20%;
+             float: left; 
+             cursor: pointer;
+             a{
+                 font-size: 20px;
+                 color: #ffffff;
+                 text-decoration: none;
+                 font-weight: bold;
+                 font-family: 'Merriweather', serif;
+                 transition: .5s;
+                 &:hover{
+                     color: #c4c4c4;
+                 }
+
+             }
+         }
+         .right{
+             width: 25%;
+             float: right;
+             cursor: pointer;
+             ul{
+                 list-style: none;
+                 li{
+                     float: left;
+                     padding: 0 10px;
+                     font-size: 15px;
+                     font-weight: bold;
+                     color: #ffffff ;
+                     font-family: 'Merriweather', serif;
+                     transition: .5s;
+                     &:hover{
+                         color: #c4c4c4;
+                     }
+                 }
+             }
+         }
+     }
+ }
+#Second{
+     background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+     background-size: cover;
+     background-position: center;
+     z-index: 1;
+     padding: 10rem 0;
+     position: relative;
+
+     .overlay{
+         position: absolute;
+         top: 0%;
+         left: 0%;
+         width: 100%;
+         height: 100%;
+         background-color:rgb(92, 78, 66) ;
+         opacity: 0.7;
+         z-index: -1;
+     }
+     .second-text{
+         text-align: center;
+         h1{
+             color: #ffffff;
+             font-size: 56px;
+             font-weight: bold;
+             font-family: 'Merriweather', serif;
+         }
+         p{
+             font-size: 18.4px;
+             color: #ffffff;
+             margin-bottom: 50px ;
+             font-family: 'Merriweather', serif;
+             opacity: 0.4;
+         }
+         a{
+             text-decoration: none;
+             background-color: #f4623a ;
+             border-radius: 50px;
+             padding: 20px 36px;
+             font-size: 13.6;
+             color: #ffffff;
+             font-weight: bold;
+             font-family: 'Merriweather', serif;
+             transition: 0.4s;
+             &:hover{
+                 background-color: #cc4b28;
+             }
+
+         }
+         hr{
+             background-color: #f4623a;
+             width: 7%;
+             height: 3px;
+             border: none;
+             margin: 30px auto;
+         }
+     }
+}
+// Third
+ #Third{
+     background-color: #f4623a;
+     padding: 8rem 0;
+ }
+ .third-text{
+     text-align: center;
+     h2{
+         font-size: 34px;
+         color: #ffffff;
+         font-weight: bold;
+         font-family: 'Merriweather', serif;
+     }
+     hr{
+        background-color: #ffffff;
+        width: 7%;
+        height: 3px;
+        border: none;
+        margin: 30px auto;
+    }
+    p{
+        font-size: 16px;
+        font-family: 'Merriweather', serif;
+        color: #ffffff;
+        font-weight: bold;
+        opacity: 0.4;
+        margin-bottom: 50px;
+    }
+    a{
+        background-color:#f8f9fa ;
+        color: #212529;
+        font-size: 13.6px;
+        padding: 20px 36px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        transition: 0.4;
+        &:hover{
+            background-color:#e4e4e4 ;
+        }
+    }
+ }
+//  Fourth
+   #Fourth{
+       padding: 7rem 0;
+       .fourth-text{
+           text-align: center;
+           h2{
+               font-size: 2rem;
+               font-family: 'Merriweather', serif;
+           }
+           hr{
+            background-color: #f4623a;
+            width: 7%;
+            height: 3px;
+            border: none;
+            margin: 30px auto;
+        }
+       }
+       .fourth-all{
+           .box{
+               width: 25%;
+               float: left;
+               text-align: center;
+               i{
+                   color: #f4623a;
+                   font-size: 60px;
+               }
+               h3{
+                   color: #212529;
+                   font-size: 24px ;
+                   font-family: 'Merriweather', serif;
+                   margin: 15px 0;
+               }
+               p{
+                   color: #6c757d;
+                   font-size: 16px;
+                   font-family: 'Merriweather', serif;
+                   margin-bottom: 80px;
+               }
+           }
+       }
+   }
+// Fifth
+    
+#Fifth{
+    padding: 5rem 0;
+    .fifth-all{
+        .box{
+            width: 33%;
+            float: left;
+            position: relative;
+            cursor: pointer;
+            &:hover{
+                .overlay{
+                    opacity: 0.8;
+                }
+                .box-text{
+                    opacity: 0.8;
+                }
+            }
+            img{
+                width: 100%;
+            }
+            .overlay{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+                background-color: #f4623a;
+                opacity:0;
+                transition: 0.5s;
+            }
+            .box-text{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                opacity: 0;
+                transition: .4s;
+                h5{
+                    color: #c4c4c4 ;
+                    font-size: 20px;
+                    font-weight: bold;
+                    opacity: 0.7;
+                }
+                h4{
+                    color: #ffffff;
+                    font-size: 28px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+    .clear{
+        clear: both;
+    }
+
+// Sixth
+#Sixth{
+    padding: 9rem 0;
+    background-color: #343a40;
+    .sixth-text{
+        text-align: center;
+        h2{
+            font-size: 3rem ;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+            color: #ffffff;
+            margin-bottom: 50px;
+        }
+        a{
+        background-color:#f8f9fa ;
+        color: #212529;
+        font-size:20px;
+        padding: 20px 36px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        transition: 0.4;
+        &:hover{
+            background-color:#e4e4e4 ;
+        }
+
+      }
+    }
+}
+
+// Seventh
+
+#Seventh{
+    padding: 5rem 0;
+    .seventh-text{
+        text-align: center;
+        h2{
+            font-size: 32px;
+            font-weight: bold;
+            font-family: 'Merriweather', serif;
+        }
+        hr{
+            background-color: #f4623a;
+             width: 7%;
+             height: 3px;
+             border: none;
+             margin: 30px auto;
+        }
+        p{
+            font-size: 18px;
+            font-family: 'Merriweather', serif;
+            color:#6c757d ;
+            margin-bottom: 50px;
+        }
+    }
+    .seventh-all{
+        width: 60%;
+       margin: auto;
+        .left{
+            width: 50%;
+            float: left;
+            text-align: center;
+            i{
+                color: #212529;
+                font-size: 60px;
+                margin-bottom: 20px;
+            }
+            a{
+                font-size: 15px;
+                color:#212529 ;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Merriweather', serif;
+            }
+            
+        }
+        .right{
+            width: 50%;
+            float: right;
+            text-align: center;
+            i{
+                color: #212529;
+                font-size: 60px;
+                margin-bottom: 20px;
+            }
+            a{
+                font-size: 15px;
+                color:#f4623a ;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Merriweather', serif;
+            }
+        }
+    }
+}
+
+
+// Eight
+
+#Eight{
+    padding: 5rem 0;
+    .eight-text{
+        text-align: center;
+        p{
+            color: #6c757d;
+            font-size: 13px;
+            margin-top: 80px ;
+            opacity: 0.9;
+        }
+    }
+}
