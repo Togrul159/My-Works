@@ -1,0 +1,377 @@
+#Navbar {
+  width: 100%;
+  height: 70px;
+}
+
+#Navbar .nav-item .nav-text .btn {
+  border: 1px solid #212529;
+  padding: 10px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #f8f8f8;
+  letter-spacing: 4px;
+  background-color: #212529;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#Navbar .nav-item .nav-text .btn:hover {
+  background-color: transparent;
+  color: #212529;
+}
+
+#Navbar .nav-item .nav-social {
+  margin: 20px 20px;
+}
+
+#Media {
+  display: none;
+}
+
+#Media .navbar-toggler {
+  margin-right: 20px;
+}
+
+#Media .logo {
+  margin-left: 20px;
+}
+
+#First {
+  width: 100%;
+  height: 250px;
+  margin-top: 10rem;
+}
+
+#First .first-item h1 {
+  color: #212529;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+#First .first-item h4 {
+  color: #212529;
+  font-weight: 350;
+  margin-top: 40px;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+#Second {
+  width: 100%;
+  margin-top: 15rem;
+  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+}
+
+#Second .second {
+  position: relative;
+  height: 600px;
+  margin: 0 -12px;
+}
+
+#Second .second .second-img {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: -999;
+  overflow: hidden;
+}
+
+#Second .second .second-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Second .second .second-img img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Second .second .second-text {
+  position: absolute;
+  z-index: 10;
+  padding: 20px;
+  top: 15px;
+}
+
+#Second .second .second-text h3 {
+  color: #f8f8f8;
+  font-weight: 400;
+}
+
+#Second .second .second-text p {
+  color: #f8f8f8;
+  font-weight: 400;
+}
+
+#Second .second .second-text .txt1 {
+  color: #f8f8f8;
+  font-weight: 400;
+}
+
+#Second .second .second-text .txt2 {
+  color: #f8f8f8;
+  font-weight: 200;
+}
+
+#Second .second .second-icon {
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Second .second .second-icon img {
+  width: 50px;
+  margin: 0px 5px;
+}
+
+#Futer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+#Futer p {
+  color: #212529;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #Media {
+    display: block;
+  }
+  #Media .media-text {
+    text-align: center;
+  }
+  #Media .media-text .btn {
+    border: 1px solid #212529;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #f8f8f8;
+    letter-spacing: 4px;
+    background-color: #212529;
+    font-weight: 500;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 20px;
+    margin-left: 7px;
+  }
+  #Media .media-text .btn:hover {
+    background-color: transparent;
+    color: #212529;
+  }
+  #Media .media-social {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  #Navbar {
+    display: none;
+  }
+  #First .first-item {
+    text-align: center;
+  }
+  #First .first-item h1 {
+    font-size: 50px;
+  }
+  #First .first-item h4 {
+    font-size: 22px;
+  }
+  #Second {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+
+#Navbar-about {
+  width: 100%;
+  height: 70px;
+}
+
+#Navbar-about .nav-item-about .nav-text-about .btn {
+  border: 1px solid #212529;
+  padding: 10px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #f8f8f8;
+  letter-spacing: 4px;
+  background-color: #212529;
+  font-weight: 500;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#Navbar-about .nav-item-about .nav-text-about .btn:hover {
+  background-color: transparent;
+  color: #212529;
+}
+
+#Navbar-about .nav-item-about .nav-social-about {
+  margin: 20px 20px;
+}
+
+#Media-about {
+  display: none;
+}
+
+#Media-about .navbar-toggler {
+  margin-right: 20px;
+}
+
+#Media-about .logo {
+  margin-left: 20px;
+}
+
+#First-about {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+#First-about h1 {
+  color: #212529;
+  margin-top: 10rem;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+#Slider {
+  width: 100%;
+  height: 350px;
+  margin-top: 20rem;
+}
+
+#Third {
+  width: 100%;
+}
+
+#Third .third-title {
+  text-align: center;
+}
+
+#Third .third-title h1 {
+  color: #212529;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+#Third .third-title p {
+  color: #212529;
+  font-weight: 350;
+  margin-top: 40px;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+#Third .third-img {
+  margin-top: 80px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#Third .third-img img {
+  width: 200;
+  height: 200px;
+}
+
+#Third .third-text h3 {
+  color: #212529;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+#Third .third-text p {
+  color: #282a2b;
+  font-weight: 200;
+  line-height: 20px;
+  text-align: center;
+  word-break: break-all;
+  margin: 30px 16.2px;
+}
+
+#Futer-about {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  background-color: #cfcfcfd3;
+}
+
+#Futer-about p {
+  color: #212529;
+  font-weight: 500;
+  margin-top: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+  #Media-about {
+    display: block;
+  }
+  #Media-about .media-text {
+    text-align: center;
+  }
+  #Media-about .media-text .btn {
+    border: 1px solid #212529;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #f8f8f8;
+    letter-spacing: 4px;
+    background-color: #212529;
+    font-weight: 500;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 20px;
+    margin-left: 7px;
+  }
+  #Media-about .media-text .btn:hover {
+    background-color: transparent;
+    color: #212529;
+  }
+  #Media-about .media-social {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  #Navbar-about {
+    display: none;
+  }
+  #First-about h1 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+  #Slider {
+    margin-top: 5rem;
+    height: 275px;
+  }
+  #Third .third-title h1 {
+    font-size: 40px;
+  }
+  #Third .third-img {
+    text-align: center;
+  }
+  #Futer {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
